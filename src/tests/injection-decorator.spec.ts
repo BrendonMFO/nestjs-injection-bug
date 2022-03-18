@@ -16,10 +16,6 @@ class TestTargetService {
   @Inject(SYMBOL_INJECTOR)
   private readonly [SYMBOL_SERVICE]: SymbolService;
 
-  constructor() {
-    console.log(this);
-  }
-
   getTestService() {
     return this.testService;
   }
